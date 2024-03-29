@@ -566,11 +566,11 @@ r5=Frame(win,bg='blue')
 r5.pack(expand=True,fill='both')
 
 
-o1=Button(r1,bd=5,text='1',font=('bold',20),command=one_c,bg='grey')
+o1=Button(r1,bd=5,text='1',font=('bold',19),command=one_c,bg='grey')
 o1.pack(side='left',expand=True,fill='both')
-o2=Button(r1,bd=5,text='2',font=('bold',20),command=two_c,bg="grey")
+o2=Button(r1,bd=5,text='2',font=('bold',19),command=two_c,bg="grey")
 o2.pack(side='left',expand=True,fill='both')
-o3=Button(r1,bd=5,text='3',font=('bold',20),command=three_c,bg='grey')
+o3=Button(r1,bd=5,text='3',font=('bold',19),command=three_c,bg='grey')
 o3.pack(side='left',expand=True,fill='both')
 
 
@@ -617,15 +617,15 @@ oequal.pack(side='left',expand=True,fill='both')
 
 
 
-dele=Button(r1,bd=5,text='DEL',font=('bold',13),command=dele_c,width=1,bg='brown')
+dele=Button(r1,bd=5,text='DEL',font=('bold',19),command=dele_c,width=1,bg='brown')
 dele.pack(side='left',expand=True,fill='both')
-c=Button(r1,bd=5,text='C',font=('bold',20),width=1,command=c_c,bg='light green')
+c=Button(r1,bd=5,text='C',font=('bold',29),width=1,command=c_c,bg='light green')
 c.pack(side='left',expand=True,fill='both')
 plu=Button(r2,bd=5,text='+',font=('bold',20),width=1,command=plus_c)
 plu.pack(side='left',expand=True,fill='both')
 min=Button(r2,bd=5,text='-',font=('bold',23),command=minus_c)
 min.pack(side='left',expand=True,fill='both')
-mul=Button(r3,bd=5,text='×',font=('bold',18),command=mul_c)
+mul=Button(r3,bd=5,text='×',font=('bold',16),command=mul_c)
 mul.pack(side='left',expand=True,fill='both')
 div=Button(r3,bd=5,text='÷',font=('bold',17),command=div_c)
 div.pack(side='left',expand=True,fill='both')
