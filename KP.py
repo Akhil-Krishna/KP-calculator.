@@ -384,9 +384,10 @@ def equal_c():
 		if '÷' in dis:
 			l=dis.split('÷')
 			if l[1]=='0':
-			  dis='' 
-			  value.set("Math ERROR")
+			  dis='';value.set("Math ERROR")
 			s=eval(l[0])
+			
+            
 			l.pop(0)
 			if l[0]=='0':
 				value.set('Math ERROR')
